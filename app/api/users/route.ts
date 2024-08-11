@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"; //creación de respuestas HTTP dentro de API Routes
 
 export async function GET(request:Request) {
-    const user = [
+    const users = [
         {
             id: 1, name: "Nhoe", email: "nhoe@gmail.com"
         },
@@ -9,6 +9,6 @@ export async function GET(request:Request) {
             id: 2, name: "Nhoe2", email: "nhoe2@gmail.com"
         }
     ]
-    return NextResponse.json(user);
+    return NextResponse.json(users);
     
 }
