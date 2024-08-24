@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { animate } from "motion"
-import "./page.css"
+/* import { animate } from "motion"
+ */import "./page.css"
 
 export default function Home() {
   return (
