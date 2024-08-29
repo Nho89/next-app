@@ -1,13 +1,20 @@
 import Image from "next/image";
 import "./page.css"
+/* import { Link } from 'react-router-dom';
+ */
 
 export default function Home() {
   return (
   <>
   
   <nav className="navbar_page">
+        {/* <Link to="/about" >
+          <img  className='logo'/>
+        </Link> */}
         <ul>
         <li>About</li>
+        <li>Contact</li>
+        <li></li>
       </ul>
       </nav>
     <main className="main_page">
